@@ -28,3 +28,18 @@ Para ejecutar este programa, necesitarás:
    ```bash
    git clone https://github.com/S4mma3l/VPN.git
    cd verificador_enlaces
+
+3. **Configurar la clave API de VirusTotal**:
+
+    Regístrate en VirusTotal y obtén una clave API gratuita.
+
+    Crea un archivo llamado key.py en el mismo directorio que tu script y agrega tu clave API:
+    ```bash
+    VIRUS_TOTAL = 'tu_clave_api_aqui'
+
+**Uso**
+
+    Ingresa el enlace que deseas verificar en el campo de entrada.
+    Haz clic en el botón "Verificar Enlace".
+    Si el enlace es sospechoso, se mostrarán recomendaciones de seguridad.
+    Si deseas crear una cuenta en Proton VPN, haz clic en el botón correspondiente.
